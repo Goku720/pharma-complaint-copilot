@@ -66,7 +66,7 @@ Environment variables:
 | Variable | Required | Default | Notes |
 |---|---|---|---|
 | `GROQ_API_KEY` | Yes | — | Used by `ChatGroq` for the agent LLM |
-| `DATABASE_URL` | No | `postgresql+psycopg2://qms_user:qms_pass@localhost:5432/qms_pharma` | `postgresql+psycopg2://...` or `mysql+pymysql://...` |
+| `DATABASE_URL` | No | `postgresql+psycopg2://qms_user:qms_pass@localhost:5432/qms_pharma` | `postgresql+psycopg2://...` |
 
 ### (Optional) Ingest the regulatory corpus for RAG grounding
 
